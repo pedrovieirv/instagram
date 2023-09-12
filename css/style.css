@@ -17,3 +17,67 @@ section {
 #imagem-celular {
     width: 100%;
 }
+
+.classe-conteudo-dentro-principal{
+    border: 1px solid #e6e6e6;
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+    align-items: center;
+    width: 100px;
+    
+}
+
+.form-ent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.div-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#botao-entrar {
+    width: 100%;
+    background: #36A4FF ;
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+    color: #fff;
+}
+
+.linhas-ou {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.linha {
+    height: 1px;
+    background: #888888;
+    width: 100%;
+}
+
+.logo-entrar-fb{
+display: flex;
+gap: 10px;
+align-items: center;
+}
+
+.logo-facebook{
+width: 20px;
+}
+
+.entrar-fb{
+text-decoration: none;
+color: #385185;
+}
+.esqueceu-senha{
+    color: #385185;
+    text-decoration: nome;
+    text-align: center;
+}
